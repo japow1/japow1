@@ -38,8 +38,8 @@
         <input type="hidden" name="subject" value="Test">
         <div class="field">
           <label class="label">Name</label>
-        <input type="hidden" name="_next" value="http://ecomplish.com.au/sent.html">
-          <form action="http://ecomplish.com.au/sent.html" method="GET">
+        <!input type="hidden" name="_next" value="http://ecomplish.com.au/sent.html">
+          <!form action="http://ecomplish.com.au/sent.html" method="GET">
           <div class="control">
             <input class="input" type="text" name="Your name" placeholder="Enter Your Name" required>
           </div>
@@ -63,7 +63,8 @@
           </div>
     <!-- If we receive data in this field submission will be ignored -->
     <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
-          <input type="hidden" name="_autoresponse" value="Success. We will get back to you shortly">
+          <!input type="hidden" name="_autoresponse" value="Success. We will get back to you shortly">
+          <input type="hidden" name="redirectTo" value="http://ecomplish.com.au/sent.html">
         </div>
         <button class="button is-primary" type="Submit">Submit</button>
 
